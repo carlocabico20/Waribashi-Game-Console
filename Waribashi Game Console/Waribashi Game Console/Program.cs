@@ -481,7 +481,7 @@ namespace Waribashi_Game_Console
                     L1 = L1 + R2;
                     Player1Turn(L1, L2, R1, R2);
                 }
-                else if (Player2Hand == "l1")
+                else if (Player1Hand == "r1")
                 {
                     R1 = R1 + R2;
                     Player1Turn(L1, L2, R1, R2);
@@ -548,7 +548,7 @@ namespace Waribashi_Game_Console
                     L1 = L1 + R2;
                     Player1Turn(L1, L2, R1, R2);
                 }
-                else if (Player2Hand == "l1")
+                else if (Player2Hand == "r1")
                 {
                     R1 = R1 + R2;
                     Player1Turn(L1, L2, R1, R2);
